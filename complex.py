@@ -1,5 +1,4 @@
-# the test program is in the main function
-# this is for Python 3+
+
 
 class Complex:
 
@@ -25,7 +24,7 @@ class Complex:
             else:
                 return str(self.real) + str(self.virl) + "j"
 
-    # operator overloads
+    
     def __add__(self, other):
         if isinstance(other, Complex):
             return Complex(self.real + other.real, self.virl + other.virl)
