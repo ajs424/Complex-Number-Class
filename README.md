@@ -16,15 +16,15 @@ I defined a constructor as well as overloaded the assignment operator so these v
 
 This repository includes:
 
-a Complex.java file that is the Java implementation
+-a Complex.java file that is the Java implementation
 
-a Main.java file that instantiates and tests all methods of the Complex class
+-a Main.java file that instantiates and tests all methods of the Complex class
 
-a complex.h file that contains the declaration of the complex class
+-a complex.h file that contains the declaration of the complex class
 
-a complex.cc file that contains the implementations of method and functions declared in the complex class
+-a complex.cc file that contains the implementations of method and functions declared in the complex class
 
-a main.cc that instantiates complex numbers and tests all methods and functions
+-a main.cc that instantiates complex numbers and tests all methods and functions
 
-a complex.py file.
+-a complex.py file.
 
