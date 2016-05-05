@@ -14,8 +14,17 @@ op: double × Complex → Complex
 
 I defined a constructor as well as overloaded the assignment operator so these versions can perform implicit conversions from doubles to Complex. The stream insertion operator << has also been overloaded to print objects of the proper type. In addition, the Python version contains functions that allow conversion from complexes to strings.
 
+This repository includes:
 
+a Complex.java file that is the Java implementation
 
+a Main.java file that instantiates and tests all methods of the Complex class
 
-The required files for this project are: a complex.h file that contains the declaration of the complex class, a complex.cc file that contains the implementations of method and functions declared in the complex class, a main.cc that instantiates complex numbers and tests all methods and functions, a Complex.java file that is the Java implementation, and a Main.java file that instantiates and tests all methods of the Complex class. The python files required are a complex.py file.
+a complex.h file that contains the declaration of the complex class
+
+a complex.cc file that contains the implementations of method and functions declared in the complex class
+
+a main.cc that instantiates complex numbers and tests all methods and functions
+
+a complex.py file.
 
