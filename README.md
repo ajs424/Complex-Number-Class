@@ -2,8 +2,6 @@
 
 Designed and implemented a class in Java, C++, and Python that represents complex numbers. The class supports important operations in addition, subtraction, multiplication and division. 
 
-Being that the Java lanaguage does not allow operator overloading/ friend functions, the Java version will not include as many functions as the C++ and Python versions. However, I did override the toString() method in this version.
-
 For the C++ and Python versions I implemented the following functions for each operation. In these functions op is one of +, -, *, or / :
 
 op: Complex × Complex → Complex
@@ -13,6 +11,8 @@ op: Complex × double → Complex
 op: double × Complex → Complex
 
 I defined a constructor as well as overloaded the assignment operator so these versions can perform implicit conversions from doubles to Complex. The stream insertion operator << has also been overloaded to print objects of the proper type. In addition, the Python version contains functions that allow conversion from complexes to strings.
+
+Since the Java lanaguage does not allow operator overloading/ friend functions, the Java version does not include as many functions as the prior two. However, overrode the toString() method in this version.
 
 This repository includes:
 
